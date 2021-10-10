@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name = "viewport" content="with=device-width, initial-scale=1.0">
+<title>University Website Design</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+ <body>
+<section class="header">
+ <nav>
+<a href="index.html"><img src="images/osulogo.png"></a>
+<div class="nav-links" id="navLinks">
+    <i class="fa fa-times" onclick="hideMenu()"></i>
+<ul>
+<li><a href="https://www.osu.edu/">HOME</a></li>
+<li><a href="https://www.osu.edu/">ABOUT</a></li>
+<li><a href="https://www.osu.edu/">COURSES</a></li>
+<li><a href="https://www.osu.edu/">BLOGS</a></li>
+<li><a href="https://www.osu.edu/">CONTACT</a></li>
+</ul>
+</div>
+<i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+
+<div class="text-box">
+    <h1>Ohio's Best College</h1>
+    <p>Ohio State is one of the largest universities in the nation.<br> It is also the best. Which is why you should apply for a major here cause why not.
+    </p>
+    <a href="" class="hero-btn">Visit Us to learn More</a>
+</div>
+
+</section>
+<!--course-->
+
+<section class="course">
+    <h1>Courses We Offer</h1>
+    <p>There are over 200+ courses we offer at OSU. Our most well know is engineering courses.</p>
+    
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+
+        </div>
+        <div class="course-col">
+            <h3>Post Graduation</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+
+        </div>
+    </div>
+
+</section>
+
+<!-------campus-->
+
+<section class="campus">
+    <h1> Our Global Campus</h1>
+    <p>Lorem ipsum dolor sit amet</p>
+
+    <div class="row">
+        <div class="campus-col">
+            <img src="images/campusosu.png">
+            <div class="layer">
+                <h3>COLUMBUS</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/R.jpg">
+            <div class="layer">
+                <h3>MANSFIELD</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/newark.jpg">
+            <div class="layer">
+                <h3>NEWARK</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!---- Facilities---->
+
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Lorem ipsum dolor sit amet</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/library.jpg">
+            <h3>World Class Library</h3>
+            <p>Lorem ipsum dolor sit amet</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/basketball.png">
+            <h3>Basketball Team</h3>
+            <p>Lorem ipsum dolor sit amet</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/cafe.jpg">
+            <h3>Tasty and Healthy Food</h3>
+            <p>Lorem ipsum dolor sit amet</p>
+        </div>
+    </div>
+
+</section>
+
+<!---testimonials-->
+
+<section class="testimonials">
+    <h1>What Our Student Says</h1>
+    <p>Lorem ipsum dolor sit amet</p>
+
+    <div class="row">
+        <div class="testimonial-col">
+            <img src="images/user1.jpg">
+            <div>
+                <p>Its a good college</p>
+                <h3>Random Student</h3>
+            </div>
+        </div>
+        <div class="testimonial-col">
+            <img src="images/user1.jpg">
+            <div>
+                <p>Its a good college</p>
+                <h3>Random Student's Twin</h3>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!--Call To Action-->
+
+<section class="cta">
+    <h1>Enroll for our various online courses<br>Anywhere from The World</h1>
+    <a href="" class="hero-btn">CONTACT US</a>
+
+</section>
+
+<!--Footer-->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet</p>
+    <div class="icons">
+
+    </div>
+    <p>Made By Jacob Potavin</p>
+</section>
+
+
+
+
+
+<!------JavaScript for toggle Menu---------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLink.style.right = "0"
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
